@@ -11,7 +11,7 @@ inputs:
     default: ${{ github.token }}
   step-summary:
     description: Generate a step summary that will be displayed on the Actions run summary page.
-    default: false
+    default: true
     required: false
 runs:
   using: "node16"
